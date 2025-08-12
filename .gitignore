@@ -1,0 +1,94 @@
+# =====================================
+# Python Specific
+# =====================================
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =====================================
+# Flask Specific
+# =====================================
+# Flask session files (if used)
+.flaskenv
+
+# =====================================
+# Node.js / npm (even if not using for frontend build, keep for future)
+# =====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# =====================================
+# Operating System Specific
+# =====================================
+.DS_Store # macOS
+.Trashes # macOS
+ehthumbs.db # Windows
+Thumbs.db # Windows
+Desktop.ini # Windows
+
+# =====================================
+# IDEs and Editors
+# =====================================
+.idea/ # IntelliJ / PyCharm
+.vscode/ # VS Code (except for recommended extensions/settings)
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# =====================================
+# Temporary / Logs / Output
+# =====================================
+*.log
+*.temp
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+.cache/
+
+# =====================================
+# Project Specific (Paths relative to .gitignore location)
+# =====================================
+# This is where your backend saves uploaded/processed images
+backend/static/uploads/
