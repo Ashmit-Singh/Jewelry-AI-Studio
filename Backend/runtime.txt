@@ -1,1 +1,0 @@
-python-3.10.11 # Or python-3.11.9 if you used 3.11.9
